@@ -1,0 +1,22 @@
+[package]
+name = "riscv-simulator"
+version = "0.1.0"
+authors = ["taowei <t888y@qq.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[workspace]
+
+members = [
+    "proc_macros",
+    "macros"
+]
+
+[dependencies]
+bit_field = "0.10"
+proc_macros =  { path = "./proc_macros", version = "0.1.0" }
+macros =  { path = "./macros", version = "0.1.0" }
+linkme = "0.2"
+lazy_static = "1.4"
+lru="0.6"
