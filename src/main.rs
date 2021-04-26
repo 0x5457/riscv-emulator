@@ -64,7 +64,7 @@ init_insn!(Cpu, Exception);
 fn main() -> io::Result<()> {
     let args: Vec<String> = env::args().collect();
     if (args.len() != 2) && (args.len() != 3) {
-        panic!("Usage: riscv-simulator <filename> [image]");
+        panic!("Usage: riscv-emulator <filename> [image]");
     }
     let mut file = File::open(&args[1])?;
     let mut binary = Vec::new();

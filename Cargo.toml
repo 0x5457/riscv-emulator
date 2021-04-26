@@ -1,5 +1,5 @@
 [package]
-name = "riscv-simulator"
+name = "riscv-emulator"
 version = "0.1.0"
 authors = ["taowei <t888y@qq.com>"]
 edition = "2018"
