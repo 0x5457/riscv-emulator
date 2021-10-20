@@ -2,7 +2,7 @@
 用于练习的 risc-v 模拟器
 
 ## Boot [xv6-riscv](https://github.com/mit-pdos/xv6-riscv)
-![Boot xv6-riscv](docs/xv6_in_emulator.png)
+![Boot xv6-riscv](https://github.com/0x5457/riscv-emulator/blob/main/docs/xv6_in_simulator.png)
 [xv6](https://github.com/mit-pdos/xv6-riscv) is a simple Unix-like operating system
 
 ## Getting Start
